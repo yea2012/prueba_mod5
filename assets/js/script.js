@@ -1,4 +1,4 @@
-//scrolltop para menu 
+//scrolltop para opciones
 
 $(document).ready(function() {
   $("#scroll-top").click(function() {
