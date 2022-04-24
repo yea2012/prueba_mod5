@@ -1,13 +1,30 @@
 //scrolltop para menu 
-$('html, body').animate({
-    scrollTop: $("#seccion-01").offset().top
-  }, 550);
-  $('html, body').animate({
-    scrollTop: $("#seccion-02").offset().top
-  }, 550);
-  $('html, body').animate({
-    scrollTop: $("#seccion-03").offset().top
-  }, 550);
-  $('html, body').animate({
-    scrollTop: $("#seccion-00").offset().top
-  }, 550);
+
+$(document).ready(function() {
+  $("#scroll-top").click(function() {
+    $("#seccion-01").animate({
+      scrollTop: 0
+    }, 500);
+  });
+});
+$(document).ready(function() {
+  $("#scroll-top").click(function() {
+    $("#seccion-02").animate({
+      scrollTop: 0
+    }, 500);
+  });
+});
+$(document).ready(function() {
+  $("#scroll-top").click(function() {
+    $("#seccion-03").animate({
+      scrollTop: 0
+    }, 500);
+  });
+});
+$(document).ready(function() {
+  $("#scroll-top").click(function() {
+    $("#seccion-00").animate({
+      scrollTop: 0
+    }, 500);
+  });
+});
