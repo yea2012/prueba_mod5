@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<!-- Fuente -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<!-- iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://kit.fontawesome.com/370a0ae5f6.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Prueba Viajes Chile_YEA</title>
+</head>
+<body>
+    <header id="seccion-00"class="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 pt-3">
+                        <img class="imagen" src="assets/img/viajes.svg" alt="logo" class="logo-viajes">  
+                    </div>
+                    <div class="col-6 pt-2">
+                        <p class="texto-viajes">Viajes Chile</p>
+                    </div>
+                </div>
+                
+                <!-- hamburguesa  -->
+                <button class="navbar-toggler navbar-dark border-light navbar-rigth" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <!-- con link al home -->
+                            <a class="nav-link active text-light text-end" href="#seccion-00">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- con link a seccion QUIENES SOMOS con smooth scroll. -->
+                            <a class="nav-link active text-light text-end" href="#seccion-01">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- on link a seccion DESTACADOS con smooth scroll. -->
+                            <a class="nav-link active text-light text-end" href="#seccion-02">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- on link a seccion CONTACTO con smooth scroll. -->
+                            <a class="nav-link active text-light text-end" href="#seccion-03">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carrusel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" alt="SP" class="d-block w-100 img-responsive" >
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" alt="SP" class="d-block w-100 img-responsive" >
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" alt="SP" class="d-block w-100 img-responsive" >
+                </div>
+            </div>
+            <!-- controles de carrusel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- seccion 1 quienes somos d-none d-md-block del elemento section son las que se encargaran de esconder el carrusel en 
+        dispositivos pequeños-->
+    <section class="seccion1 d-none d-md-block pt-3 text-center">
+        <h1 id="seccion-01">¿QUIENES SOMOS?</h1>
+        <hr style="color: beige;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="ocultar-mostrar fa-solid fa-plane d-block text-center icons2"></i>
+                    <p class="text-light text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa rerum officia voluptates voluptate minus aperiam quisquam odit. Dolore quas temporibus aliquam sint, nam, repudiandae earum ab, explicabo libero facilis modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet necessitatibus mollitia nesciunt voluptate adipisci optio quae ipsum illum, numquam illo quam at ab fuga voluptatum inventore sunt alias debitis officia.</p>
+                </div>                    
+                <div class="col-md-4">
+                    <p class="text-light text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus culpa dolore quae sunt expedita aspernatur quisquam necessitatibus veritatis ea eveniet sint vitae, ipsum delectus, laudantium sit odio fugiat deleniti repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugiat laborum dignissimos aliquid praesentium sequi nesciunt labore animi libero quis, minus nemo omnis incidunt voluptas placeat iste iure ducimus facilis!</p>
+                    <i class="ocultar-mostrar fa-solid fa-mountain d-block text-center icons2"></i>
+                </div>
+                <div class="col-md-4">
+                    <i class="ocultar-mostrar fa-solid fa-car d-block text-center icons2"></i>
+                    <p class="text-light text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur aspernatur odio eum eligendi recusandae vitae totam quisquam tempora ullam in quas dolorem, sit eos? Quidem, quisquam possimus. Ea, dicta quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem reiciendis pariatur in, consectetur accusantium provident incidunt quidem quis error omnis deserunt ipsum enim earum qui fugit eaque tempora veniam vel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 2 destacados -->
+    <section class="destacados pt-3 text-center">
+        <h2 id="seccion-02"class="text-center">DESTACADOS</h2>
+        <hr style="color: beige;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card h-100">
+                        <img class="card-img-top img-responsive" src="assets/img/card1.jpg" alt="card-1">
+                        <div class="card-body">
+                            <h5 id="card_1" class="card-title text-light text-center">Destacado1</h5>
+                            <p id="target"class="card-text text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit ea esse repellat asperiores mollitia. Molestias consequuntur iste nulla beatae assumenda consectetur eum est. Aliquid iste laudantium vero consequuntur vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="assets/img/card2.jpg" alt="card-2">
+                        <div class="card-body">
+                            <h5 id="card_2" class="card-title text-light text-center">Destacado2</h5>
+                            <p id="target" class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis possimus, impedit nobis vitae sunt veniam suscipit ipsa beatae ipsam numquam molestiae, ducimus non obcaecati cum. Nostrum sapiente voluptas et?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="assets/img/card3.jpg" alt="card-3">
+                        <div class="card-body">
+                            <h5 id="card_3"class="card-title text-light text-center">Destacado3</h5>
+                            <p id="target" class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sunt deleniti commodi dolorum numquam eius ad repellendus consequatur. Maxime iste quibusdam quis, atque consequuntur reiciendis blanditiis fuga asperiores? Ab, impedit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="assets/img/card4.jpg" alt="card-4">
+                        <div class="card-body">
+                            <h5 id="card_3"class="card-title text-light text-center">Destacado4</h5>
+                            <p id="target" class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, maxime non est id quia saepe sapiente dolorum consectetur fuga. Nisi ipsa incidunt qui tempore illo impedit quos omnis, veniam quia!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacto pt-3">
+        <h3 id="seccion-03"class="contactos">CONTACTO</h3>
+        <hr style="color: beige;">
+        <!-- formulario -->
+        <form class="container">
+            <div class="mb-3 ms-4 me-4">
+                <label for="disabledTextInput" class="form-label text-center text-light">Nombre</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+            </div>   
+            <div class="mb-3 ms-4 me-4">
+                <label for="disabledTextInput" class="form-label text-center text-light">Asunto</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Asunto">
+            </div>
+            <div class="mb-3 ms-4 me-4">
+                <label for="comment" class="text-light">Mensaje</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <!-- boron enviar con tooltip -->
+            <div class="mb-3 ms-4 me-4">
+                <button type="submit" class="btn btn-primary" data-toggle="tooltip" title="Presiona para enviar tu informacion y nos contactaremos!">Enviar</button>
+            </div>
+            <br>
+        </form>
+    </section>
+    <!-- footer con link a RRSS y Git -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 my-auto ">
+                    <h4>VIAJES CHILE</h4>
+                </div>
+                <div class="col-sm-12 col-md-6 my-auto ">
+                    <a  href="https://github.com" target="_blank" role="button"><i class="fab fa-github-square fa-2x icons2"></i></a>
+                    <a  href="https://www.linkedin.com" target="_blank" role="button"><i class="fa fa-linkedin-square fa-2x icons2"></i></a>
+                    <a  href="https://www.twitter.com" target="_blank" role="button"><i class="fa fa-twitter-square fa-2x icons2"></i></a>
+                    <a  href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x icons2"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

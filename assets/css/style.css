@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Patrick Hand', cursive;
+}
+/* seccion 0 header- nav+carrusel*/
+.header {
+    background-size: cover;
+}
+.header .navbar {
+    font-family: 'Patrick Hand', cursive;
+    background-color: transparent !important;
+}
+.imagen{
+    width: 30pt;
+    height: 30pt;
+    text-align: left;
+}
+.texto-viajes{
+    font-family: 'Patrick Hand', cursive;
+    font-size: medium;
+    color: white;
+    text-align: left;
+  }
+/* estilo seccion 1 QUIENES SOMOS*/
+.seccion1{
+    background-color: black ;
+    
+    color: white;
+}
+h1{
+    color: white; 
+    font-family: 'Patrick Hand', cursive; 
+    text-align: center; 
+}
+/* seccion2 DESTACADOS*/
+.destacados{
+    background-color: black;
+    color: white;
+}
+.h2{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    background-color: black;
+}
+.card{
+    background-color: #1798c1 !important;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+  /* estilo seccion 3 CONTACTO*/
+h3{
+    color: white;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+.contacto{
+    background-color: black;
+    
+}
+  /* estilo seccion 4 FOOTER*/
+ 
+h4{
+    background-color: #1798c1;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+footer {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    background-color: #1798c1 !important;
+    color: white;
+    padding: 20px
+}
+
+/* estilo para todos los iconos */
+.icons2{
+    color: white;
+    background-color:#1798c1;
+    font-size: 30px
+}
+
+  /* justificacion de parrafo */
+.text-justify{
+    text-align: justify;
+}
